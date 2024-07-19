@@ -12,7 +12,7 @@ app.set('view engine', 'pug');
 
 app.get('/', (req, res) => {
   res.render('home', {
-    title: 'Search Hacker News',
+    title: 'Bad URL Checker',
   });
 });
 
